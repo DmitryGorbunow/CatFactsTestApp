@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		CA711BB42BC9303C009114B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BB32BC9303C009114B9 /* AppDelegate.swift */; };
 		CA711BB62BC9303C009114B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BB52BC9303C009114B9 /* SceneDelegate.swift */; };
-		CA711BB82BC9303C009114B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BB72BC9303C009114B9 /* ViewController.swift */; };
-		CA711BBB2BC9303C009114B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA711BB92BC9303C009114B9 /* Main.storyboard */; };
 		CA711BBD2BC9303D009114B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA711BBC2BC9303D009114B9 /* Assets.xcassets */; };
 		CA711BC02BC9303D009114B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA711BBE2BC9303D009114B9 /* LaunchScreen.storyboard */; };
+		CA711BC82BC93876009114B9 /* CatFactsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BC72BC93876009114B9 /* CatFactsListViewModel.swift */; };
+		CA711BCA2BC93991009114B9 /* CatFactsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BC92BC93991009114B9 /* CatFactsListView.swift */; };
+		CA711BCC2BC93FA1009114B9 /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BCB2BC93FA1009114B9 /* CatFact.swift */; };
+		CA711BCE2BC9464F009114B9 /* CatsFactsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA711BCD2BC9464F009114B9 /* CatsFactsAPI.swift */; };
+		D0380F442BCE3937006B8FFB /* CatFactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0380F432BCE3937006B8FFB /* CatFactRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA711BB02BC9303C009114B9 /* testLifeMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testLifeMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA711BB32BC9303C009114B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA711BB52BC9303C009114B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA711BB72BC9303C009114B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CA711BBA2BC9303C009114B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA711BBC2BC9303D009114B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA711BBF2BC9303D009114B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA711BC12BC9303D009114B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA711BC72BC93876009114B9 /* CatFactsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsListViewModel.swift; sourceTree = "<group>"; };
+		CA711BC92BC93991009114B9 /* CatFactsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsListView.swift; sourceTree = "<group>"; };
+		CA711BCB2BC93FA1009114B9 /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
+		CA711BCD2BC9464F009114B9 /* CatsFactsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsFactsAPI.swift; sourceTree = "<group>"; };
+		D0380F432BCE3937006B8FFB /* CatFactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,74 @@
 		CA711BB22BC9303C009114B9 /* testLifeMart */ = {
 			isa = PBXGroup;
 			children = (
-				CA711BB32BC9303C009114B9 /* AppDelegate.swift */,
-				CA711BB52BC9303C009114B9 /* SceneDelegate.swift */,
-				CA711BB72BC9303C009114B9 /* ViewController.swift */,
-				CA711BB92BC9303C009114B9 /* Main.storyboard */,
+				D0510A362BCDA58700104ED3 /* App */,
+				D0510A312BCDA53E00104ED3 /* FactsListPage */,
+				D0510A372BCDA5DF00104ED3 /* API */,
 				CA711BBC2BC9303D009114B9 /* Assets.xcassets */,
 				CA711BBE2BC9303D009114B9 /* LaunchScreen.storyboard */,
 				CA711BC12BC9303D009114B9 /* Info.plist */,
 			);
 			path = testLifeMart;
+			sourceTree = "<group>";
+		};
+		D0510A312BCDA53E00104ED3 /* FactsListPage */ = {
+			isa = PBXGroup;
+			children = (
+				D0510A322BCDA55300104ED3 /* Model */,
+				D0510A332BCDA55800104ED3 /* VIewModel */,
+				D0510A342BCDA56100104ED3 /* View */,
+				D0510A352BCDA57B00104ED3 /* Components */,
+			);
+			path = FactsListPage;
+			sourceTree = "<group>";
+		};
+		D0510A322BCDA55300104ED3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA711BCB2BC93FA1009114B9 /* CatFact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0510A332BCDA55800104ED3 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA711BC72BC93876009114B9 /* CatFactsListViewModel.swift */,
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		D0510A342BCDA56100104ED3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA711BC92BC93991009114B9 /* CatFactsListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0510A352BCDA57B00104ED3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D0380F432BCE3937006B8FFB /* CatFactRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D0510A362BCDA58700104ED3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CA711BB32BC9303C009114B9 /* AppDelegate.swift */,
+				CA711BB52BC9303C009114B9 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D0510A372BCDA5DF00104ED3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CA711BCD2BC9464F009114B9 /* CatsFactsAPI.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +192,6 @@
 			files = (
 				CA711BC02BC9303D009114B9 /* LaunchScreen.storyboard in Resources */,
 				CA711BBD2BC9303D009114B9 /* Assets.xcassets in Resources */,
-				CA711BBB2BC9303C009114B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +202,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA711BB82BC9303C009114B9 /* ViewController.swift in Sources */,
+				CA711BCC2BC93FA1009114B9 /* CatFact.swift in Sources */,
 				CA711BB42BC9303C009114B9 /* AppDelegate.swift in Sources */,
+				CA711BCA2BC93991009114B9 /* CatFactsListView.swift in Sources */,
+				D0380F442BCE3937006B8FFB /* CatFactRow.swift in Sources */,
+				CA711BCE2BC9464F009114B9 /* CatsFactsAPI.swift in Sources */,
+				CA711BC82BC93876009114B9 /* CatFactsListViewModel.swift in Sources */,
 				CA711BB62BC9303C009114B9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +215,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CA711BB92BC9303C009114B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA711BBA2BC9303C009114B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA711BBE2BC9303D009114B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +357,6 @@
 				INFOPLIST_FILE = testLifeMart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +384,6 @@
 				INFOPLIST_FILE = testLifeMart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "91CA296B-3E56-44CC-B607-A37F07CFC1BC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FDE9520-F1C2-4A04-9388-FD83EC3DDDBD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testLifeMart/ListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "sortFacts(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4FDE9520-F1C2-4A04-9388-FD83EC3DDDBD - acf412df81071f52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testLifeMart.ListViewModel.sortFacts(Swift.Array&lt;testLifeMart.CatFact&gt;) -&gt; Swift.Array&lt;testLifeMart.CatFact&gt;"
+                  moduleName = "testLifeMart"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/good_shmorning/Desktop/testLifeMart/testLifeMart/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  uuid = "4FDE9520-F1C2-4A04-9388-FD83EC3DDDBD - dc3883275684bd42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testLifeMart.ListViewModel.sortFacts(Swift.Array&lt;testLifeMart.CatFact&gt;) -&gt; ()"
+                  moduleName = "testLifeMart"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/good_shmorning/Desktop/testLifeMart/testLifeMart/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "4FDE9520-F1C2-4A04-9388-FD83EC3DDDBD - dc3883275684bd42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testLifeMart.ListViewModel.sortFacts(Swift.Array&lt;testLifeMart.CatFact&gt;) -&gt; ()"
+                  moduleName = "testLifeMart"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/good_shmorning/Desktop/testLifeMart/testLifeMart/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "488">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFD90134-4E36-4D93-BF37-DACDB71B2B3F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testLifeMart/ListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "fetchFacts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DFD90134-4E36-4D93-BF37-DACDB71B2B3F - b58b760083868070"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testLifeMart.ListViewModel.fetchFacts() -&gt; ()"
+                  moduleName = "testLifeMart"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/good_shmorning/Desktop/testLifeMart/testLifeMart/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "DFD90134-4E36-4D93-BF37-DACDB71B2B3F - 602fd60590d52d46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;testLifeMart.CatFact&gt;) -&gt; () in testLifeMart.ListViewModel.fetchFacts() -&gt; ()"
+                  moduleName = "testLifeMart"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/good_shmorning/Desktop/testLifeMart/testLifeMart/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5442D18E-0D4F-4F5F-AB8E-6FACEC7F0367"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testLifeMart/ListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "sortFacts(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5442D18E-0D4F-4F5F-AB8E-6FACEC7F0367 - dc3883275684bd23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testLifeMart.ListViewModel.sortFacts(Swift.Array&lt;testLifeMart.CatFact&gt;) -&gt; ()"
+                  moduleName = "testLifeMart"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/good_shmorning/Desktop/testLifeMart/testLifeMart/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "5442D18E-0D4F-4F5F-AB8E-6FACEC7F0367 - dc3883275684bd23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testLifeMart.ListViewModel.sortFacts(Swift.Array&lt;testLifeMart.CatFact&gt;) -&gt; ()"
+                  moduleName = "testLifeMart"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/good_shmorning/Desktop/testLifeMart/testLifeMart/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "456">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
